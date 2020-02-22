@@ -1,4 +1,6 @@
 function loaded() {
+    document.getElementsByClassName("home-page")[0].innerHTML = main;
+
     disable("logo-home-page")
     let title = document.getElementById('title-home-page')
     let des = document.getElementsByClassName('description')[0]
@@ -526,5 +528,42 @@ components.anh = `
     <div><img src="./imgg/aumilieu9.jpg" height="170"></div>    
 </div>
 
+</div>
+`
+let main = `
+<div class="header-home-page">
+    <div class="contact-icons">
+        <span><a href="https://www.facebook.com/HSGSArtClub/">
+        <img class="facebook-logo" src="./imghd/fb.png"></a></span>
+        <span><a href="./index.html">
+        <img class="hac-logo" src="./imghd/hac-nobg.png"></a></span>
+        <span class="soundcloud-logo"><a href="https://soundcloud.com/hsgsartclub">
+        <img src="./imghd/sc.png"></a></span>
+    </div>
+    <div class="quote-wrapper poppin-font">
+        <div>Hate us cuz you ain't us</div>
+    </div>
+</div>
+<div class="body-home-page">
+    <p id="click-logo" class="be-vietnam-font logo-blink" style="border: none">nhấn vô logo nè</p>
+    <div class="logo-home-page">
+        <img id="logo-home-page" src="./imghd/hac-nobg.png" class="logo-blink" onclick="readyToMainPage()">
+    </div>
+    <div id="title-home-page" class="title-home-page poppin-font">hsgs art club</div>
+    <div class="to-main-page-wrapper"><a href="./mainpage.html">
+        <button class="link-to-main-page be-vietnam-font">đến trang chủ ></button></a>
+    </div>
+    <div class="description be-vietnam-font">Hsgs Art Club là câu lạc bộ nghệ thuật đầu tiên 
+    và duy nhất trường THPT Chuyên Khoa học tự nhiên, 
+    với mong muốn phá tan định kiến: "chuyên Tổng Hợp vô cùng khô khan."</div>
+    <div class="home-page-cover">
+        <div>
+            <img src="./imghd/h2.png">
+        </div>
+    </div>
+
+</div>
+<div class="footer-home-page">
+    <div class="creator-wrapper be-vietnam-font">created by truong ban Nhac hac 2017</div>
 </div>
 `

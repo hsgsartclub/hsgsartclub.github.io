@@ -4,50 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../imghd/hac-nobg.png">
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,400,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="hachome.css">
-    <link rel="icon" href="../imghd/hac-nobg.png">
-    <script src="./hachome.js"></script>
+
     <title>HSGS Art Club</title>
 </head>
-<body onload="loaded()">
-    <section class="home-page">
-        <div class="header-home-page">
-            <div class="contact-icons">
-                <span><a href="https://www.facebook.com/HSGSArtClub/">
-                <img class="facebook-logo" src="./imghd/fb.png"></a></span>
-                <span><a href="./index.html">
-                <img class="hac-logo" src="./imghd/hac-nobg.png"></a></span>
-                <span class="soundcloud-logo"><a href="https://soundcloud.com/hsgsartclub">
-                <img src="./imghd/sc.png"></a></span>
-            </div>
-            <div class="quote-wrapper poppin-font">
-                <div>Hate us cuz you ain't us</div>
-            </div>
-        </div>
-        <div class="body-home-page">
-            <p id="click-logo" class="be-vietnam-font logo-blink" style="border: none">nhấn vô logo nè</p>
-            <div class="logo-home-page">
-                <img id="logo-home-page" src="./imghd/hac-nobg.png" class="logo-blink" onclick="readyToMainPage()">
-            </div>
-            <div id="title-home-page" class="title-home-page poppin-font">hsgs art club</div>
-            <div class="to-main-page-wrapper"><a href="./mainpage.html">
-                <button class="link-to-main-page be-vietnam-font">đến trang chủ ></button></a>
-            </div>
-            <div class="description be-vietnam-font">Hsgs Art Club là câu lạc bộ nghệ thuật đầu tiên 
-            trường THPT Chuyên Khoa học tự nhiên, 
-            với mong muốn phá tan định kiến: "chuyên Tổng Hợp vô cùng khô khan."</div>
-            <div class="home-page-cover">
-                <div>
-                    <img src="./imghd/h2.png">
-                </div>
-            </div>
+<body id="body" onload="loaded()">
+<section class="home-page">
+</section>
 
-        </div>
-        <div class="footer-home-page">
-            <div class="creator-wrapper be-vietnam-font">created by truong ban Nhac hac 2017</div>
-        </div>
-    </section>
 </body>
+
+<script>
+    let loader = `
+        <div class="loader-con">
+            <p class="loader-text be-vietnam-font">hsgs art club</p>
+        </div>
+    `
+
+    document.getElementsByClassName("home-page")[0].innerHTML =  loader
+</script>
+<script src="./hachome.js"></script>
 </html>
