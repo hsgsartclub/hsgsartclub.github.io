@@ -163,9 +163,9 @@ components.tin = `
 components.hoa = `
 <div id="hoatdong">                
 <div class="post-web">
-    <div id="hdtn" class="heading-main-page montserrat-font">HOẠT ĐỘNG THƯỜNG NIÊN</div>
+    <div id="hdtn" class="heading-main-page montserrat-font">XIN CHÀO! CHÚNG MÌNH LÀ HAC!</div>
     <div id="title-img"><img src="./imghd/hac-logo.jpg" alt="" width="100%"></div>
-    <div class="leading-text-main-page center be-vietnam-font">Những ngày mới thành lập, câu lạc bộ chỉ đơn thuần biểu diễn ở các sự kiện của nhà trường và thu sản phẩm âm nhạc đăng trên fanpage riêng. Dần dà mãi đến năm 2016, HAC trở nên bùng nổ mạnh mẽ với bước tiến táo bạo, nhiều hoạt động được tổ chức hơn nhằm chia sẻ đam mê nghệ thuật với mọi người xung quanh dưới các hình thức mới mẻ.</div>
+    <div class="leading-text-main-page center be-vietnam-font" style="color: white">Những ngày mới thành lập, câu lạc bộ chỉ đơn thuần biểu diễn ở các sự kiện của nhà trường và thu sản phẩm âm nhạc đăng trên fanpage riêng. Dần dà mãi đến năm 2016, HAC trở nên bùng nổ mạnh mẽ với bước tiến táo bạo, nhiều hoạt động được tổ chức hơn nhằm chia sẻ đam mê nghệ thuật với mọi người xung quanh dưới các hình thức mới mẻ.</div>
 </div>
 <div class="title-bar center"><span></span></div>
 

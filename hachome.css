@@ -977,7 +977,8 @@ iframe {
         margin-bottom: 50px;
     }
     #title-img img, .grid-prj-web img {
-        opacity: 0.3
+        opacity: 0.6
+
     }
     #danb-img img {
         opacity: 0.6
@@ -1133,6 +1134,7 @@ iframe {
 
     #crown-pic img {
         width: 45px;
+        height: 45px;
     }
     #core-title {
         font-size: 35px;
