@@ -49,6 +49,16 @@ button:focus {
 .home-page-cover {
     display: none;
 }
+
+
+::-webkit-scrollbar {
+    width: 0.7vw; 
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255, 0.4);
+}
+
 /* header home page */
 .header-home-page {
     font-weight: 400;
